@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include<QtSerialPort/QSerialPort>
-  QSerialPort serial;
+ static QSerialPort serial;
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
